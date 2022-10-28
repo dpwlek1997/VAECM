@@ -52,7 +52,7 @@ parser.add_argument("--draft",
 
 parser.add_argument("-a","--archi", 
                         help="Name of the architecture to use",
-                        choices=['Boubekki','Wendler','10z','SmallLayers','SmallerLayers','ExtraLayer','SmallExtraLayer',
+                        choices=['Boubekki','Wendler','10z','SmallLayers','SmallerLayers','ExtraLayer','SmallExtraLayer', 'SmallExtraLayer2','SmallExtraLayer3',
                                 'OneIntLayer50','OneIntLayer20'], 
                         default='Wendler', 
                         type=str, 
